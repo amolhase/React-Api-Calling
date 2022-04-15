@@ -1,0 +1,58 @@
+
+.header{
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid rgb(238, 193, 201);
+    margin: 10px 15px 10px 15px;
+    border-radius:5px;
+    color: rgba(185, 24, 24, 0.514);
+    padding:10px;
+}
+
+.cards{
+    background-color:aliceblue;
+    width:98%;
+    border:1px solid rgb(238, 193, 201);
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+    /* display:grid;
+    grid-template-columns: auto auto auto auto; */
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width:200px;
+    /* height:300px; */
+    border:1px solid rgb(170, 66, 153);
+    border-radius:10px;
+    box-shadow: rgba(70, 70, 75, 0.2) 0 7px 29px 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: serif;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0 7px 29px 0;
+}
+
+.post-id{
+    color: rgba(172, 55, 55, 0.514);
+    font-weight: bold;
+    padding-bottom:5px;
+}
+
+.post-title{
+    color: rgba(172, 55, 55, 0.514);
+    font-weight: bold;
+    padding-bottom:5px;
+}
+
+.post-body{
+    color: rgba(172, 55, 55, 0.514);
+    font-weight: bold;
+}
