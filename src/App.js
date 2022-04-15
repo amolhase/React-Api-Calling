@@ -1,9 +1,12 @@
 import './App.css';
+import ApiComp from './ApiComp';
+import ImageComp from './ImageComp';
 
 function App() {
   return (
     <div>
-      Hello World!!
+      <ApiComp />
+      {/* <ImageComp /> */}
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.header{
+    text-align: center;
+    background-color: rgb(161, 158, 158);
+    color: rgba(185, 24, 24, 0.514);
+    margin:0;
+    padding:10px;
+}
+
+.cards{
+    background-color: cadetblue;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width:200px;
+    border:1px solid rgb(170, 66, 153);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.image{
+    width:150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.img-title{
+ color: rgba(172, 55, 55, 0.514);;
+}

@@ -1,0 +1,49 @@
+.header{
+    text-align: center;
+    background-color: rgb(161, 158, 158);
+    color: rgba(185, 24, 24, 0.514);
+    margin:0;
+    padding:10px;
+}
+
+.cards{
+    background-color: cadetblue;
+    width:100%;
+    /* display:grid;
+    grid-template-columns: auto auto auto auto; */
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aliceblue;
+    width:200px;
+    /* height:300px; */
+    border:1px solid rgb(170, 66, 153);
+    border-radius:10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: serif;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: rgba(9, 9, 10, 0.2) 0 7px 29px 0;
+}
+
+.post-id{
+    color: rgba(172, 55, 55, 0.514);
+    font-weight: bold;
+}
+
+.post-title{
+    color: rgba(172, 55, 55, 0.514);
+    font-weight: bold;
+}
+
+.post-body{
+    color: rgba(172, 55, 55, 0.514);
+    font-weight: bold;
+}
