@@ -18,8 +18,8 @@ const ImageComp = () => {
             {
                 data.map((data) => ( 
                 <div key = { data.id } className="card" >
-                    <p className='post-id'>Image_ID: { data.id }</p> 
-                    <p><span className='post-title'>Image_Title:</span> { data.title }</p>
+                    <p className='img-id'>Image_ID: { data.id }</p> 
+                    <p><span className='img-title'>Image_Title:</span> { data.title }</p>
                     <p className='img-title'>Image</p>
                     <img className='image' src={data.url} alt="img" />
                     <p className='img-title'>Thumbnail</p>

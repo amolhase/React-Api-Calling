@@ -1,6 +1,6 @@
 import './App.css';
 import ApiComp from './ApiComp';
-import ImageComp from './ImageComp';
+// import ImageComp from './ImageComp';
 
 function App() {
   return (
